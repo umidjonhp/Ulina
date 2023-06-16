@@ -1,5 +1,88 @@
+.productTop{
+    display: flex;
+    justify-content: space-between;
+}
+.productTop > ul{
+     display: flex;
+     align-items: center;
+     gap: 4rem;
+}
+.productTop > ul > li > a{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size: 2.6rem;
+    color: #AFB4C4;
+    transition: all 0.3s linear;
+}
+.productTop > ul > li > a:hover{
+    color: var(--primary-color);
+}
+.product > .dresses{
+    flex-wrap: wrap;
+}
+.ai{
+    display: inline-flex;
+    align-items: start;
+    row-gap: 5.4rem !important;
+}
+.ai > .dresCard > .dresCardImg{
+    padding-bottom: 0;
+    height: 330px;
+}
+.nk{
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 6rem;
+    color: #297176;
+    display: flex;
+    gap: 1.8rem;
+    align-items: center;
+}
+.priceDelete{
+    font-weight: 400 !important;
+    font-size: 2rem !important;
+    line-height: 6rem ;
+    color: #969DAD !important;
+    text-decoration: line-through;
+}
+.round{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.ellipse{
+    background-color: #BA2828;
+    width: 1.1rem;
+    height: 1.1rem;
+    border-radius: 50%;
+}
+.cl1{
+    background-color: #BA2828;
+}
+.cl2{
+    background-color: #E2C048;
+}
+.cl3{
+    background-color: #040404;
+}
+.cl4{
+    background-color: #E5D4D1;
+}
+.cl5{
+    background-color: #56C4E7;
+}
+.cl6{
+    background-color: #886652;
+}
+.cl7{
+    background-color: #886652;
+}
+.cl8{
+    background-color: #C399AD;
+}
 .newCollection{
     display: flex;
+    margin-top: 9rem;
     gap: 3rem;
 }
 .collection{
