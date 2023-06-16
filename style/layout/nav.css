@@ -1,0 +1,74 @@
+nav{
+    background-color: var(--header-bg-color);
+    border-bottom: 0.08rem solid #84BABE;
+}
+.nav{
+    padding: 3.6rem 0 2.3rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navLogo > img{
+    width: 100%;
+    height: 100%;
+}
+.navMenu{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+ 
+}
+.navList{
+    display: flex;
+    align-items: end;
+    gap: 0.5rem;
+}
+.navMenu > li > a{
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    color: var(--nav-list-color);
+    position: relative;
+}
+.navMenu > li > a::before{
+    content: '';
+    position: absolute;
+    height: 0.2rem;
+    background-color: transparent;
+    width: 5.9rem;
+    bottom: 0rem;
+    transition: all 0.3s linear;
+}
+.navMenu > li > a:focus:before{
+    bottom: -3.2rem ;
+    background-color: #84BABE;
+}
+.navIcon{
+    display: flex;
+    align-items: center;
+    padding-right: 0.9rem;
+    gap: 2.8rem;
+}
+.icnNum{
+    top: -0.7rem;
+    right: -0.7rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #F04726;
+    color: var(--color-fff);
+    font-size: 1rem;
+    padding: 0.4rem;
+    line-height: 1.2rem;
+}
+.navIcon > span:last-child{
+    position: relative;
+}
+.navIcon > span > img{
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,44 @@
+/*====== FONTS ======*/
+ @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+ /* font-family: 'Outfit', sans-serif; */
+ @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+ /* font-family: 'Work Sans', sans-serif; */
+/*====== ROOT ======*/
+:root {
+    --primary-color: #34394C;
+    --h1-color: #3A415C;
+    --p-color: #7F8698;
+    --header-bg-color:#DEECEC;
+    --card-bg-color: #F7F8FC;
+    --about-bg-color: #F6F8FA;
+    --footer-bg-color: #E8EAEF;
+    --color-fff: #fff;
+    --btn-bg-color: #589195;
+    --nav-list-color:#2C5F63;
+}
+/*====== BASIC STYLE ======*/
+*,*::before ,*::after{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Work Sans', sans-serif;
+}
+html{
+   font-size: 62.5%;
+   /* font-size: 10px; */
+}
+a{
+   text-decoration: none;
+   display: inline-block;
+}
+ul{ 
+   list-style: none;
+}
+button{
+   border: none;
+   cursor: pointer;
+}
+.container{
+  max-width: 111rem;
+  margin: 0 auto;
+}

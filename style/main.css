@@ -1,0 +1,12 @@
+@import "./layout/nav.css";
+@import "./layout/hero.css";
+@import "./layout/arrival.css";
+@import "./layout/jeans.css";
+@import "./layout//product.css";
+@import "./layout/category.css";
+@import "./layout/about.css";
+@import "./layout/footer.css";
+
+
+@import "./layout/base/basic.css";
+@import "./layout/base/class.css";

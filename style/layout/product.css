@@ -1,0 +1,52 @@
+.newCollection{
+    display: flex;
+    gap: 3rem;
+}
+.collection{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-left: 4.8rem;
+    position: relative;
+    height: 325px;
+}
+.collection:first-child{
+    background-color: #E9E6F0;
+}
+.collection:last-child{
+    background-color: #F6EBD9;
+}
+.collectionInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    line-height: 4rem;
+}
+.collectionInfo > h4{
+    font-size: 1.4rem;
+    color: var(--btn-bg-color);
+}
+.collectionInfo > h3{
+    font-size: 3rem;
+    color: var(--primary-color);
+}
+.collectionInfo > a{
+    font-size: 1.8rem;
+    text-decoration-line: underline;
+    color: #000;
+}
+.collectionImg{
+    padding-top: 2.2rem;
+    height: 100%;
+}
+.llk{
+    position: absolute;
+    right: -5rem;
+}
+.collectionImg > img{
+    width: 92%;
+    height: 100%;
+}

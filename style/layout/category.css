@@ -1,0 +1,40 @@
+.category{
+    padding: 8rem 0 7.5rem 0;
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    display: flex;
+}
+.categoryBox{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: space-between;
+}
+.categoryCard{
+    width: 22.95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.categoryImg > img{
+    width: 100%;
+    height: 100%;
+}
+.categoryInfo{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.categoryInfo > h4{
+    font-weight: 400;
+    font-size: 2.8rem;    
+    color: #34394C;
+}
+.categoryInfo > span{
+    font-size: 1.6rem;
+    color: #BFBFBF;
+}
