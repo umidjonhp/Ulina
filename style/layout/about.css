@@ -101,13 +101,13 @@
 }
 .logBrend{
     display: flex;
-    gap: 5.7rem;
+    gap: 10rem;
     justify-content: center;
     padding: 5.5rem 0 4.1rem;
     flex-wrap: wrap;
 }
 .brend{
-    width: 11.5%;
+    width: 9.5%;
 }
 .brend > img{
     width: 100%;
