@@ -1,0 +1,100 @@
+footer{
+    background-color: var(--footer-bg-color);
+    padding: 8.9rem 0 1.5rem 0;
+}
+.footerTop{
+    display: flex;
+}
+.foterLogo{
+    width: 32.9%;
+}
+.foterLogo > p{
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    margin: 1.1rem 0 2.4rem 0;
+    color: #707686;
+}
+label{
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    padding: 0.6rem 1.1rem 0.6rem 1.4rem;
+}
+label > input{
+    background-color: transparent;
+    border: none;
+    padding: 0.4rem 0;
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+    letter-spacing: -0.03em;
+    color: #AEB0B8;
+}
+.footerIcon{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin: 2.7rem 0 3.2rem 0;
+}
+.footerIcon > span > img{
+    width: 100%;
+    height: 100%;
+}
+.footerMenu{
+    width: 68%;
+    display: flex;
+    align-items: start;
+}
+.footerMenu > ul{
+    margin-top: 2.5rem;
+    width: 25%;
+}
+.footerMenu > ul:nth-child(2){
+    margin-left: 8rem;
+}
+.footerMenu > ul:nth-child(3){
+    width: 13%;
+    margin-left: 11.3rem;
+}
+.footerMenu > ul:last-child{
+    width: 11%;
+    padding-top: 4.5rem;
+}
+.footerMenu > ul > h6{
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+.footerAddres > li{
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+}
+.footerMenu > ul > li > a{
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    color: #6E7489;
+    text-align: left;
+}
+.footerBottom{
+    color: #707686;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.1rem;
+    border-top: 1px solid rgba(204, 210, 222, 0.81);
+}
+.footerBottom > span{
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+}
+.footerBottom > p{
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.02em;
+}
